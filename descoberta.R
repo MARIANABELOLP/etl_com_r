@@ -14,3 +14,5 @@ freq(facebook) #o pacote funmodeling busca automaticamente as variáveis que sã
 plot_num(facebook [4:6]) #exploração das variáveis numéricas
 
 profiling_num(facebook [4:6]) #fornece todas as estatísticas das variáveis numéricas
+
+head(facebook) # visualizamos as primeiras linhas de nosso objeto de dados, bem como seu cabeçalho;
