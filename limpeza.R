@@ -27,6 +27,10 @@ latin_america <- latin_america %>% filter(new_cases>=0) # retirando casos negati
 
 
 #removendo os NA(NOT AVAILABLE)
+latin_america_na <- na.omit(latin_america)
+View(latin_america_na)
+
+#substituindo NA por zero
 latin_america$new_deaths[which(is.na(latin_america$new_deaths))] <- 0
 latin_america$new_cases[which(is.na(latin_america$new_cases))] <- 0
 status(latin_america) 
