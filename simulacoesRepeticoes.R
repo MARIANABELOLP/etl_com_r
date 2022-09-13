@@ -27,6 +27,9 @@ variavelBinomial <- rbinom(10, 4, 0.8)
 variavelIndex <- seq(1, length(variavelNormal))
 variavelIndexB <- seq(3, length(variavelBinomial))#iniciando em 3 até o tamanho da distribuição
 variavelIndexB2 <- seq(3, 5)#iniciando em 3 até a posição 5
+variavelIndex3 <- seq(1, length(variavelNormal), 3)#Iniciando em 1, selecionando de "3 em 3".
+variavelIndexImpar <- seq(1, length(variavelNormal), 2) #índice de números ímpares, iniciando em 1, selecionando de 2 em 2.
+variavelIndexPar <- seq(2, length(variavelNormal), 2) #índice de números pares, iniciando em 2, selecionando de 2 em 2.
 
 # a função removeTaskCallback remove a tarefa criada no início
 removeTaskCallback(tarefaSemente)
